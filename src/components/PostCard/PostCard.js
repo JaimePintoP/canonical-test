@@ -3,23 +3,38 @@ import "./PostCard.css";
 
 const Card = ({ post }) => {
   console.log(post);
+
+  // const date = new Date(post.modified);
+  // console.log("DATE:", date);
   return (
-    <div>
-      <img src={post.featured_media} alt="" />
-      <h1>{post.title.rendered}</h1>
-      <a href={post.link} target="_blank" rel="noopener noreferrer">
-        {post.title.rendered}
-      </a>
-      <h2>
-        by{" "}
-        <a
-          href={post._embedded.author[0].link}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {post._embedded.author[0].name}
-        </a>
-      </h2>
+    <div className="col-4 blog-p-card--post">
+      <header className="card-header">
+        <h5 className="p-card__title u-no-margin--botom">CLOUD AND SERVER</h5>
+      </header>
+
+      <div className="content-container">
+        <img className="p-image" src={post.featured_media} alt="" />
+
+        <h3 className="p-heading--4">
+          <a href={post.link} target="_blank" rel="noopener noreferrer">
+            {post.title.rendered}
+          </a>
+        </h3>
+
+        <p className="p-heading--6">
+          By{" "}
+          <a
+            href={post._embedded.author[0].link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {post._embedded.author[0].name}
+          </a>{" "}
+          on {post.modified}
+        </p>
+      </div>
+
+      <p className="card-footer">Article</p>
     </div>
   );
   //title: title.rendered

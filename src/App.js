@@ -21,8 +21,8 @@ const App = () => {
   };
 
   return (
-    <div>
-      <h1>App Component</h1>
+    <div className="row u-equal-height u-clearfix">
+      <h1>Canonical Test</h1>
       {posts.map((post) => {
         return <PostCard post={post} key={post.id} />;
       })}
