@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import PostCard from "./PostCard";
+import PostCard from "./components/PostCard/PostCard";
 
 const App = () => {
   const [posts, setPosts] = useState([]);
@@ -23,7 +23,9 @@ const App = () => {
   return (
     <div>
       <h1>App Component</h1>
-      <PostCard />
+      {posts.map((post) => {
+        return <PostCard post={post} key={post.id} />;
+      })}
     </div>
   );
 };
