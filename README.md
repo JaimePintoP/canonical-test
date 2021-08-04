@@ -23,7 +23,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This project uses Vanilla Framework for CSS.
 To see the documentation go to [Vanilla Framework Documentation](https://vanillaframework.io/).
 
-### API
+## API
 
 - [API](https://people.canonical.com/~anthonydillon/wp-json/wp/v2/posts.json)
 
