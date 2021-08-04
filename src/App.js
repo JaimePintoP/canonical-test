@@ -21,11 +21,17 @@ const App = () => {
   };
 
   return (
-    <div className="row u-equal-height u-clearfix">
-      <h1>Canonical Test</h1>
-      {posts.map((post) => {
-        return <PostCard post={post} key={post.id} />;
-      })}
+    <div>
+      <h1>Canonical Test - Jaime Pinto</h1>
+      {posts && posts.length > 0 ? (
+        <div className="row u-equal-height u-clearfix">
+          {posts.map((post) => {
+            return <PostCard post={post} key={post.id} />;
+          })}
+        </div>
+      ) : (
+        <p>Loading...</p>
+      )}
     </div>
   );
 };

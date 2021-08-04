@@ -1,7 +1,7 @@
 .blog-p-card--post {
   border-radius: 3px;
   border-top: 4px solid #a06d97;
-  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.3);
+  box-shadow: 0 0px 7px rgb(0, 0, 0, 0.15);
   margin-bottom: 1.5rem;
 }
 .card-header {
@@ -9,20 +9,22 @@
   padding: 0 0.5rem;
 }
 .content-container {
-  border-top: 2px dotted #d9d9d9;
+  border-top: 1px dotted #d9d9d9;
   display: flex;
   flex-direction: column;
   margin: 0 0.5rem;
-  padding: 1rem 0.5rem 0.5rem;
-  min-height: 75%;
+  padding: 0.5rem;
+  min-height: 77%;
 }
 .p-heading--4 {
-  display: block;
   margin: 0.5rem 0;
 }
 
+.p-heading--6 {
+  margin: 0.1rem 0;
+}
 .card-footer {
-  border-top: 2px dotted #d9d9d9;
+  border-top: 1px dotted #d9d9d9;
   margin: auto 0.5rem 0;
   padding: 1rem 0.5rem;
 }

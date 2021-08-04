@@ -2,8 +2,6 @@ import React from "react";
 import "./PostCard.css";
 
 const Card = ({ post }) => {
-  // console.log(post);
-
   const monthNames = [
     "January",
     "February",
@@ -26,11 +24,10 @@ const Card = ({ post }) => {
   let year = postDate.split(" ").slice(3, 4).join();
 
   const date = `${day} ${month} ${year}`;
-  //TODO: loading text meanwhile info comes from api
   return (
     <div className="col-4 blog-p-card--post">
       <header className="card-header">
-        <h5 className="p-card__title u-no-margin--botom">CLOUD AND SERVER</h5>
+        <h5 className="p-muted-heading u-no-margin--botom">CLOUD AND SERVER</h5>
       </header>
 
       <div className="content-container">
@@ -58,12 +55,6 @@ const Card = ({ post }) => {
       <p className="card-footer">Article</p>
     </div>
   );
-  //title: title.rendered
-  //title url: link
-  //author: embedded.author.name o embedded.author[0].name
-  //author url: embedded.author.link o embedded.author[0].link
-  //date: modified
-  //image: featured_media
 };
 
 export default Card;
