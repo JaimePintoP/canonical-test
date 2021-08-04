@@ -3,6 +3,7 @@
 ## Description
 
 Canonical code test for Junior Web Developer role. The data is being pulled from a WordPress API.
+The desktop styles are setted by referencing a Laptop screen size of 1024x873.
 
 ## Link to deploy
 
@@ -29,7 +30,11 @@ To see the documentation go to [Vanilla Framework Documentation](https://vanilla
 
 ## Available Scripts
 
-In the project directory, you can run:
+Before running the app, install all the dependencies by running:
+
+### `npm install`
+
+Then, in the project directory, you can run:
 
 ### `npm start`
 
