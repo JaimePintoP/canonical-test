@@ -6,7 +6,7 @@ Canonical code test for Junior Web Developer role. The data is being pulled from
 
 ## Link to deploy
 
--[Deploy](https://jaimepintop.github.io/canonical-test/)
+- [Deploy](https://jaimepintop.github.io/canonical-test/)
 
 ## Components
 
@@ -25,7 +25,7 @@ To see the documentation go to [Vanilla Framework Documentation](https://vanilla
 
 ### API
 
--[API](https://people.canonical.com/~anthonydillon/wp-json/wp/v2/posts.json)
+- [API](https://people.canonical.com/~anthonydillon/wp-json/wp/v2/posts.json)
 
 ## Available Scripts
 
