@@ -6,13 +6,13 @@ Canonical code test for Junior Web Developer role. The data is being pulled from
 
 ## Link to deploy
 
-[Deploy](https://jaimepintop.github.io/canonical-test/)
+-[Deploy](https://jaimepintop.github.io/canonical-test/)
 
 ## Components
 
 - PostCard
 
-# User Guide
+## User Guide
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -21,7 +21,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Vanilla Framework
 
 This project uses Vanilla Framework for CSS.
-To see the documentation go to [Vanilla Framework Documentation](https://vanillaframework.io/)
+To see the documentation go to [Vanilla Framework Documentation](https://vanillaframework.io/).
+
+### API
+
+-[API](https://people.canonical.com/~anthonydillon/wp-json/wp/v2/posts.json)
 
 ## Available Scripts
 
