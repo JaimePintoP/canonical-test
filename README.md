@@ -3,6 +3,7 @@
 ## Description
 
 Canonical code test for Junior Web Developer role. The data is being pulled from a WordPress API.
+The desktop styles are setted by referencing a Laptop screen size of 1024x873.
 
 ## Link to deploy
 
