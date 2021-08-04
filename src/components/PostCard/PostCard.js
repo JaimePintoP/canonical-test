@@ -31,7 +31,11 @@ const Card = ({ post }) => {
       </header>
 
       <div className="content-container">
-        <img className="p-image" src={post.featured_media} alt="" />
+        <img
+          className="p-image"
+          src={post.featured_media}
+          alt="post related preview"
+        />
 
         <h3 className="p-heading--4">
           <a href={post.link} target="_blank" rel="noopener noreferrer">
