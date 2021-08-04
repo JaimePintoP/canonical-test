@@ -29,7 +29,11 @@ To see the documentation go to [Vanilla Framework Documentation](https://vanilla
 
 ## Available Scripts
 
-In the project directory, you can run:
+Before running the app, install all the dependencies by running:
+
+### `npm install`
+
+Then, in the project directory, you can run:
 
 ### `npm start`
 
