@@ -14,16 +14,12 @@
   flex-direction: column;
   margin: 0 0.5rem;
   padding: 1rem 0.5rem 0.5rem;
-  height: 75%;
+  min-height: 75%;
 }
 .p-heading--4 {
   display: block;
   margin: 0.5rem 0;
 }
-
-/* footer {
-  margin-bottom: 0.1rem;
-} */
 
 .card-footer {
   border-top: 2px dotted #d9d9d9;

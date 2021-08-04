@@ -2,10 +2,31 @@ import React from "react";
 import "./PostCard.css";
 
 const Card = ({ post }) => {
-  console.log(post);
+  // console.log(post);
 
-  // const date = new Date(post.modified);
-  // console.log("DATE:", date);
+  const monthNames = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
+
+  let postDate = new Date(post.modified);
+  let month = monthNames[postDate.getMonth()];
+  postDate = postDate.toUTCString();
+  let day = postDate.split(" ").slice(1, 2).join();
+  let year = postDate.split(" ").slice(3, 4).join();
+
+  const date = `${day} ${month} ${year}`;
+  //TODO: loading text meanwhile info comes from api
   return (
     <div className="col-4 blog-p-card--post">
       <header className="card-header">
@@ -30,7 +51,7 @@ const Card = ({ post }) => {
           >
             {post._embedded.author[0].name}
           </a>{" "}
-          on {post.modified}
+          on {date}
         </p>
       </div>
 
